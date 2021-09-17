@@ -45,7 +45,7 @@ elForm.addEventListener('submit', function(evt){
    userDistances.value = null;
 
    if (userDistances <= 0 || isNaN(userDistances)) {
-      userError.textContent = 'Raqam kiriting!';
+      userError.textContent = 'Please enter a number !';
       return;
    } else {
       userError.textContent =""
